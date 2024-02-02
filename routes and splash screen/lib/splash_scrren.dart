@@ -9,11 +9,10 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return EasySplashScreen(
       logo: Image.asset('assets/logo.png'),
-      title: Text('My Awesome App'),
+      title: const Text('My Awesome App'),
       backgroundColor: Colors.white,
       durationInSeconds: 5,
       navigator: FirstScreen(), // Builder function
     );
-    
   }
 }
